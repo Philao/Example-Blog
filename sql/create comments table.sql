@@ -1,0 +1,8 @@
+CREATE TABLE comments(
+postid INT AUTO_INCREMENT NOT NULL , 
+uname VARCHAR(100) NOT NULL ,  
+email VARCHAR(50) NOT NULL , 
+ucomment TEXT NOT NULL , 
+ctime DATE NOT NULL,
+PRIMARY KEY(postid)
+);

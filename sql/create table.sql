@@ -1,0 +1,10 @@
+CREATE TABLE blog(
+id INT AUTO_INCREMENT NOT NULL , 
+title VARCHAR(100) NOT NULL , 
+updated  DATE, 
+author VARCHAR(50) NOT NULL , 
+content TEXT NOT NULL , 
+picture VARCHAR(50) NOT NULL , 
+created DATE NOT NULL,
+PRIMARY KEY(id)
+);

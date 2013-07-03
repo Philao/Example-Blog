@@ -1,0 +1,280 @@
+/*@media  all and (min-width: 791px) {*/
+    
+    
+    #container {
+        color: #666666;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 80%;
+        max-width: 900px;
+    	/*in-width: 90%; */
+    	/*border: 1px solid green;*/
+    	height: auto;
+    }
+    
+    #titleBar {
+       
+    	border: 5px solid black;
+    	margin-bottom: 20px;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    #titleText {
+        font-size: 5em;
+        text-decoration:none;
+        color: #000000;
+    }
+    
+    #titleImage {
+        display: none;
+        border: 2px solid black;
+        position: relative;
+        /*margin: 0px 5px 0px 5px;*/
+        width: 99.5%;    
+    }
+    
+    #nav {
+        display:none;
+    	border: 5px solid black;
+    	/*height: 50px;*/
+    	padding: 20px 20px 20px 20px;
+    }
+    
+    h1 {
+    	display: inline;
+    	margin-left: 10px;
+    }
+    #search {
+    	float: right;
+    	display: inline;
+    	margin-top: 10px;
+    	
+    }
+    
+    #main {
+        
+    	margin-top: 20px;
+    	border: 5px solid black;
+    	padding: 10px 10px 10px 10px;
+    	width: 60%;
+    	float: left;
+    }
+    .post 
+    {
+    	border: 1px solid black;
+    	padding: 10px 10px 10px 10px;
+    	min-height: 350px;
+        margin-bottom: 10px;
+    }
+    
+    .dateAuthor {
+    	margin-bottom: 10px;
+    }
+    
+    .picture {
+    	height: 200px;
+    	width: 200px;
+    	top: 0%;
+    	right: 0;
+    	border: 1px solid black;
+    	float: right;
+    	margin: 10px 10px 10px 10px;
+    	
+    }
+    
+    #pastComments
+    {
+    	
+    }
+    
+    #commentForm {
+    	border: 1px solid black;
+    	padding: 10px 10px 10px 10px;
+    }
+    
+    #comments
+    {
+    
+    
+    }
+    
+    #nameBox {
+        min-width:90%;
+    }
+    
+    #emailBox {
+        min-width:90%;
+    }
+    
+    #commentBox 
+    {
+    	min-width:90%;
+    	height: 100px;
+    	resize: none; 
+    	margin-bottom: 10px;
+    }
+    
+    .commentbox 
+    {
+    	border-top: 1px dotted black;
+    	padding: 10px 10px 10px 10px;
+    }
+    
+    .commentname
+    {
+    	text-decoration:underline;
+    }
+    
+    
+    
+    #sideBar {
+        display: none;
+    	float: right;
+    	border: 5px solid black;
+    	width: 30%;
+    	margin-top: 20px;
+    	border: 5px solid black;
+    	padding: 10px 10px 10px 10px;
+    	/*height: 100%;*/
+    }
+    
+    /*#social {
+    	height: 100px;
+    	border: 1px solid black;
+    	padding: 20px 10px 10px 20px;
+    }*/
+    
+    #recent {
+    	border: 1px solid black;
+        padding-left: 10px;
+    
+    }
+    
+    .recentImage{
+        border: 1px solid black;
+        height: 60px;
+        width: 60px;
+        float: left;
+        display:inline;
+        margin-right: 5px;
+    }
+    
+    
+    .recentLoop {
+        border: 1px solid #ddd;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        margin: 0.5em 0.5em 0.5em 0em;
+    }
+    
+    .recentText {
+        position: relative;
+        display: inline;
+        font-size: 12px;
+        
+    }
+    
+    .error 
+    {
+    	color: red;
+    }
+
+/*}*/
+
+
+@media all and (max-width: 790px) {
+    
+    #container {
+        color: #666666;
+        margin-left: auto;
+    	margin-right: auto;
+    	width: 80%;
+        min-width: 300px;
+    	/*in-width: %; */
+    	/*border: 1px solid green;*/
+    	height: auto;
+    }
+    
+    #titleBar {
+        border: 5px solid black;
+    	margin-bottom: 20px;
+        padding: 5px 5px 5px 5px;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        
+    }
+    
+    #titleText {
+        font-size: 5em;
+        text-decoration:none;
+        color: #000000;
+    }
+    
+    #titleImage {
+        border: 2px solid black;
+        position: relative;
+        /*margin: 0px 5px 0px 5px;*/
+        width: 99.5%;    
+    }
+    
+    #nav {
+    	border: 5px solid black;
+    	/*height: 50px;*/
+    	padding: 20px 20px 20px 20px;
+        width:auto;
+    }
+    
+    
+    
+    
+     #main {
+        margin-top: 20px;
+    	border: 5px solid black;
+    	padding: 10px 10px 10px 10px;
+    	
+    	
+        
+        margin-left: auto;
+        margin-right: auto;
+    	width: auto;
+    	min-width: 150px%; 
+    	
+    	height: auto;
+    }
+
+    #sideBar {
+        
+    	border: 5px solid black;
+    	float: left;
+    	margin-top: 20px;
+    	border: 5px solid black;
+    	padding: 10px 10px 10px 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    	min-width: 90%;
+    	width: auto;
+    	height: auto;
+    	
+    }
+    
+    #nameBox {
+        min-width:90%;
+    }
+    
+    #emailBox {
+        min-width:90%;
+    }
+    
+    #commentBox 
+    {
+        min-width:90%;
+    	height: 100px;
+    	resize: none; 
+    	margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    
+}
